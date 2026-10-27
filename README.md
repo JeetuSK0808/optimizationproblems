@@ -135,6 +135,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [90](https://teorth.github.io/optimizationproblems/constants/90a.html) | Maximum minimum modulus of a distinct covering system | 44* | 615999 |
 | [89a](https://teorth.github.io/optimizationproblems/constants/89a.html) | Ramsey multiplicity constant of $K\_4$ | 0.0296 | 0.030145 (0.0301388857*) |
 | [89b](https://teorth.github.io/optimizationproblems/constants/89b.html) | Ramsey multiplicity constant of $K\_5$ | 0.001524 | 0.001708 (0.0016870052*) |
+| [89c](https://teorth.github.io/optimizationproblems/constants/89c.html) | Ramsey multiplicity constant of $K\_6$ | $1/\binom{252}{6}$ | $0.7445 \cdot 2^{-14}$ ($0.7422548616 \cdot 2^{-14}$*) |
 
 
 ## Recent progress
@@ -251,6 +252,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [65](https://teorth.github.io/optimizationproblems/constants/65a.html) **improved upper bound (unverified):** $C\_{65} \leq 2.4$*, a corollary of [OpenAI's $7/8$ quasi-Riemann hypothesis](https://github.com/openai/math/tree/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026) for Dirichlet $L$-functions, 30 Sep 2026.
 - [65](https://teorth.github.io/optimizationproblems/constants/65a.html) **improved upper bound (unverified):** $C\_{65} \leq 3.99$* by [E. Naslund](https://hexagonmath.org/2610.00018v1), 2 Oct 2026, with public computational certificates and a partial Lean formalization.
 - [89b](https://teorth.github.io/optimizationproblems/constants/89b.html) **new constant; improved upper bound (unverified):** the Ramsey multiplicity constant of $K\_5$, with $0.001524 \le C\_{89b}$ ([O. Parczyk, S. Pokutta, C. Spiegel, T. Szabó](https://arxiv.org/abs/2206.04036)) and $C\_{89b} \le 0.0016870052$* (previously $0.001708$) by J. SK ([certificate](https://github.com/JeetuSK0808/tao-constants-certificates/tree/82a6e4def9c63e9a7254bc2393f61a872891c480/c89b-k5-ramsey-multiplicity)), 26 Oct 2026: gradient refinement of their 192-vertex Cayley graph as a step graphon, with the density computed exactly.
+- [89c](https://teorth.github.io/optimizationproblems/constants/89c.html) **new constant; improved upper bound (unverified):** the Ramsey multiplicity constant of $K\_6$, $C\_{89c} \le 0.7422548616 \cdot 2^{-14}$* (previously $0.7445 \cdot 2^{-14}$, F. Franek 2002 and Deza–Franek–Liu 2012) by J. SK ([certificate](https://github.com/JeetuSK0808/tao-constants-certificates/tree/98b6ee34e8f51f82be85517e4b7f0e7e7af393b8/c89c-k6-ramsey-multiplicity)), 26 Oct 2026: fractional weight-class refinement of Franek's $\mathbb{Z}\_2^{10}$ Cayley graph, with the density computed exactly by two independent programs.
 
 ## Maintainers
 
